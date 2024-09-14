@@ -222,7 +222,7 @@ namespace NPOI
             context.Clear();
 
             //save extended and custom properties
-            GetProperties().Commit();
+            //GetProperties().Commit();
 
             pkg.Save(stream);
         }
